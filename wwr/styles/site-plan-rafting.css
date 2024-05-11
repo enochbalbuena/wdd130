@@ -13,8 +13,8 @@ body {
     --heading-font: 'Open Sans', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
 
-    --nav-background-color: #004358;
-    --nav-link-color: #ffffff;
+    --nav-background-color: #ffffff;
+    --nav-link-color: #004358;
     --nav-hover-link-color: #F18F01;
     --nav-hover-background-color: #005B7F;
   }

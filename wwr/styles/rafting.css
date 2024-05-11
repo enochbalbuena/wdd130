@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #006E90;
+    --secondary-color: #F18F01;
+    --accent1-color: #ADCAD6;
+    --accent2-color: #99C24D;
+    --text-color: black;
+
+    --heading-font: 'Open Sans', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+
+    --nav-background-color: #ffffff;
+    --nav-link-color: #004358;
+    --nav-hover-link-color: #F18F01;
+    --nav-hover-background-color: #005B7F;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--nav-background-color);
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    margin-left: 20px;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    --heading-font: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin-left: 20px;
+}
+
+footer nav {
+    margin-right: 20px;
+}
+
+footer nav a img {
+    width: 30px;
+    height: auto;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#mission-heading {
+    color:var(--accent2-color)
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10px 20px;
+    z-index: 2;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    z-index: 2;
+}
+
+.hero article p {
+    color: white;
+    margin: 0;
+}
+
+.hero article img {
+    float: right;
+    margin-right: 20px;
+    width: 150px;
+    height: auto;
+}
+
+.adventure-gallery img {
+    width: 600px;
+    height: auto;
+}

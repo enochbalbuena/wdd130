@@ -14,20 +14,19 @@
     --nav-link-color: #004358;
     --nav-hover-link-color: #F18F01;
     --nav-hover-background-color: #005B7F;
-  }
+}
 
-  header {
-    display: flex;
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
     background-color: var(--nav-background-color);
+    padding: 10px 20px;
 }
 
 header img {
     height: 50px;
     width: auto;
-    margin-left: 20px;
 }
 
 body {
@@ -36,8 +35,18 @@ body {
     padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     --heading-font: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h2 {
+    text-align: center;
     color: var(--primary-color);
 }
 
@@ -48,26 +57,51 @@ p {
 }
 
 nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
     display: flex;
-  }
+    justify-content: flex-end;
+    gap: 20px;
+}
 
-  nav a {
+nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
-  }
+}
 
-  nav a:link, nav a:visited {
+nav a:link,
+nav a:visited {
     color: var(--nav-link-color);
-  }
+}
 
-  nav a:hover {
+nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-  }
+}
+
+.history {
+    background-color: var(--accent1-color);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section.history {
+    background-color: var(--nav-background-color);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.history-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.history-content img {
+    width: 200px;
+    height: auto;
+}
 
 a {
     color: var(--link-color);
@@ -104,7 +138,7 @@ footer nav a img {
 }
 
 #mission-heading {
-    color:var(--accent2-color)
+    color: var(--accent2-color);
 }
 
 .hero img {
@@ -131,7 +165,7 @@ footer nav a img {
     bottom: 20px;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     padding: 10px 20px;
     z-index: 2;
@@ -149,7 +183,23 @@ footer nav a img {
     height: auto;
 }
 
+section.adventures {
+    margin-bottom: 20px;
+}
+
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.adventure-gallery figure {
+    flex: 1;
+    text-align: center;
+}
+
 .adventure-gallery img {
-    width: 600px;
+    width: 100%;
     height: auto;
 }
+

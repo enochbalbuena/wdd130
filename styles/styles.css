@@ -15,7 +15,7 @@ main{
 }
 
 nav {
-    background-color: steelblue;
+    background-color: #25455F;
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -86,7 +86,7 @@ footer{
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
-    background-color: #ddd;
+    background-color: #DEDEDE;
     color: #000;
 }
 
@@ -97,4 +97,9 @@ footer{
 .grid{
     display: grid;
     align-items: center;
+}
+
+.temple-link {
+    text-decoration: none;
+    color: #0000A3;
 }

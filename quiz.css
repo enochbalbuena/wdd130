@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,10 +28,15 @@ body {
 }
 
 h1 {
-    margin: 1 rem;
-    font-size: 1.5 em;
+    margin: 1rem;
+    font-size: 1.5em;
     text-align: center;
     color: navy;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
 }
 
 .form-group {
@@ -59,7 +64,7 @@ textarea {
 }
 
 button {
-    margin: 1rem;
+    margin: 1rem 0;
     width: 100%;
     padding: .75rem;
     background-color: navy;

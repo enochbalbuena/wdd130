@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Rafting Adventures</title>
+    <meta name="description" content="Contact Rafting Adventures for any inquiries or reservations">
+    <meta name="author" content="Enoch Balbuena">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Site Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="company-info">
+            <h2>Company Information</h2>
+            <address>
+                Madison, Ohio<br>
+                44057, EE. UU.<br>
+                Phone: (555) 123-4567<br>
+                Email: <a href="mailto:contact@raftingcompany.com">contact@raftingcompany.com</a>
+            </address>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d35816.92817247744!2d-81.0764491157072!3d41.799427165664426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1716523386890!5m2!1ses-419!2smx" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <div class="team-gallery">
+                <figure>
+                    <img src="images/profile1.jpeg" alt="John Doe">
+                    <figcaption>John Doe, Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/profile2.webp" alt="Jane Smith">
+                    <figcaption>Jane Smith, Reservation Specialist</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/profile3.jpeg" alt="Emily Johnson">
+                    <figcaption>Emily Johnson, Customer Support</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <div class="form-group">
+                        <input type="radio" id="general" name="purpose" value="general" required>
+                        <label for="general">General Inquiry</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </fieldset>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Subscribe to the monthly newsletter</label>
+                </div>
+                <button type="submit">Submit Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Rafting Adventures, Inc.</p>
+        <nav>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="images/x(twitter).png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+        <nav>
+            <a href="https://app.moqups.com/zJu3P59AFjw6hHhg9uinVm3xrxEt1UQs/view/page/ad64222d5" target="_blank">View Contact Us Wireframe</a>
+        </nav>
+    </footer>
+</body>
+</html>
+
